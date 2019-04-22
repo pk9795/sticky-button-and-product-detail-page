@@ -1,0 +1,154 @@
+body {
+ font-family: 'Roboto', sans-serif;
+  background-color: #000;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
+/*li{
+  list-style: none;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.box {
+
+  text-align: right;
+  margin: 50px 105px 0 0;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px 20px;
+  color: #fff;
+  border: 2px solid #f62418;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #f62418;
+}
+
+.overlay {
+  position: fixed;
+  top: 15%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 35px;
+  background:#f62418;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  height: 350px;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #fff;
+  font-family: Tahoma, Arial, sans-serif;
+  font-weight: normal;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+.popup .close:hover {
+  color: #ccc;
+}
+.popup .content{
+  float:left; 
+  width: 30%; 
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+.popup .content h4{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}*/
+
+.box {
+
+  text-align: right;
+  margin: 50px 105px 0 0;
+}
+
+
+.button {
+  font-size: 1em;
+  padding: 10px 20px;
+  color: #fff;
+  border: 2px solid #f62418;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #f62418;
+}
+
+li{
+  list-style: none;
+  line-height: 24px;
+  font-size: 14px;
+}
+#popup-wrapper{
+  display:none;
+  text-align:left;
+  background:#ff0000;
+  color:#fff;
+  margin: 70px auto;
+  padding: 35px;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  height: 300px;
+}
+
+.popup .content{
+  float:left; 
+  width: 30%; 
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+.popup .content h4{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
